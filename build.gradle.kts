@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.5.10"
+    kotlin("jvm") version "1.5.21"
 }
 
 group = "org.doni"
@@ -10,5 +10,6 @@ repositories {
 }
 
 dependencies {
+    implementation("org.bouncycastle:bcpkix-jdk15on:1.69")
     implementation(kotlin("stdlib"))
 }
